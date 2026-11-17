@@ -15,6 +15,7 @@ app.use(express.json())
 // Registrar rutas
 app.use('/api', productosRoutes)
 app.use('/api', usuariosRoutes)
+console.log('Tipo de pedidosRoutes:', typeof pedidosRoutes)
 app.use('/api', pedidosRoutes)
 
 // Ruta principal
